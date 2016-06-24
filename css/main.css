@@ -1,0 +1,153 @@
+.navbar-default{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* Carousel Styles! */
+
+#slide1{
+  background: url("../img/wood-2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+}
+
+#slide1 img{
+  max-width: 250px;
+  position: relative;
+  bottom: 50px;
+}
+
+#slide2{
+  background: url("../img/restaurant-2.jpg");
+  background-size: cover;
+  background-position: center;;
+  height: 75vh;
+}
+
+#slide2 h1{
+  position: relative;
+  bottom: 70px;
+  padding-bottom: 20px;
+}
+
+#slide2 p{
+  position: relative;
+  bottom: 70px;
+  padding-bottom: 20px;
+}
+
+#slide3{
+  background: url("../img/farm-2.jpg");
+  background-size: cover;
+  background-position: center;;
+  height: 75vh;
+}
+
+#slide3 p{
+  position: relative;
+  bottom: 70px;
+  padding-bottom: 20px;
+}
+
+#slide3 h1{
+  position: relative;
+  bottom: 70px;
+  padding-bottom: 20px;
+}
+
+/* Story Styles */
+#story{
+  padding: 5%;
+}
+
+#story h3{
+  font-weight: 700;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.heading{
+  font-family: 'Lobster', cursive;
+  font-size: 80px;
+  color: #F8512f;
+  text-shadow: 1px 1px #a0a0a0;
+}
+
+#year{
+  position: absolute;
+  z-index: -1;
+  color: #e9e9e9;
+  font-size: 200px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  margin-top: -20px;
+}
+
+.story p{
+  padding: 0px;
+  position: relative;
+  bottom: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Food Review Styles */
+
+#food-review{
+  background-image: url("../img/food_review.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 500px;
+}
+
+#food-review .background{
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 8%;
+  padding: 3%;
+}
+
+#food-review h3{
+  color: #fff;
+  font-size: 23px;
+}
+
+/* Menu Styles */
+
+#menu{
+  background-image: url("../img/black_linen.png");
+}
+
+.menu-h1{
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+  font-family: 'Lobster', cursive;
+}
+
+#menu .tab-pane{
+  background-color: #fff;
+  padding: 2%;
+}
+
+#home p{
+  position: relative;
+  bottom: 0px;
+  padding: 0px;
+}
+
+.col-sm-3{
+  padding: 20px;
+}
+
+/* Contact Styles */
+
+#contact{
+  background-color: #f8512f;
+  color: #fff;
+  padding: 3%;
+}
+
+#contact h1{
+  text-transform: uppercase;
+  font-size: 68px;
+}
